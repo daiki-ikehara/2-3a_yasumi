@@ -664,7 +664,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.0074627, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -681,7 +681,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636823811}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.3383875, y: -0.11, z: -10}
+  m_LocalPosition: {x: -1.6, y: -0.11, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1457486230}
@@ -2879,7 +2879,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1489969695}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.3383875, y: -0.11, z: -10}
+  m_LocalPosition: {x: -1.6, y: -0.11, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3005,6 +3005,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputSpeed: 0
+  JumpPower: 0
+  gravity: 0
+  jumpheight: 0
 --- !u!212 &2003192645
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3052,7 +3055,7 @@ SpriteRenderer:
   m_Size: {x: 7.48, y: 7}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2003192646
@@ -3276,12 +3279,27 @@ PrefabInstance:
     - target: {fileID: 8520228974646380549, guid: 660e5b2f33d114145a6f30d0bcb75502,
         type: 3}
       propertyPath: inputSpeed
-      value: 3
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8520228974646380549, guid: 660e5b2f33d114145a6f30d0bcb75502,
+        type: 3}
+      propertyPath: jumpheight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8520228974646380549, guid: 660e5b2f33d114145a6f30d0bcb75502,
+        type: 3}
+      propertyPath: JumpPower
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8520228974646380549, guid: 660e5b2f33d114145a6f30d0bcb75502,
+        type: 3}
+      propertyPath: gravity
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8520228974646380568, guid: 660e5b2f33d114145a6f30d0bcb75502,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.3383875
+      value: -1.6
       objectReference: {fileID: 0}
     - target: {fileID: 8520228974646380568, guid: 660e5b2f33d114145a6f30d0bcb75502,
         type: 3}
