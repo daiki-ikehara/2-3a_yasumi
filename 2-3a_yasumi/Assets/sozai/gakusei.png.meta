@@ -1,0 +1,889 @@
+fileFormatVersion: 2
+guid: f9d8ee7071791294692d760d84deec08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5183819509689552350
+    second: gakusei_0
+  - first:
+      213: 3089384044024784568
+    second: gakusei_1
+  - first:
+      213: -1646110901321925698
+    second: gakusei_2
+  - first:
+      213: 6581637180090107621
+    second: gakusei_3
+  - first:
+      213: 6982148530531719919
+    second: gakusei_4
+  - first:
+      213: 4279011294552842681
+    second: gakusei_5
+  - first:
+      213: 1076272475149456260
+    second: gakusei_6
+  - first:
+      213: 5597902534334952979
+    second: gakusei_7
+  - first:
+      213: 7419689315422273822
+    second: gakusei_8
+  - first:
+      213: -5200166551328097340
+    second: gakusei_9
+  - first:
+      213: 1245306224080670928
+    second: gakusei_10
+  - first:
+      213: -7222430792411100852
+    second: gakusei_11
+  - first:
+      213: 5205728685627290193
+    second: gakusei_12
+  - first:
+      213: 937492721609639379
+    second: gakusei_13
+  - first:
+      213: -1647814139917814560
+    second: gakusei_14
+  - first:
+      213: 610329709844476349
+    second: gakusei_15
+  - first:
+      213: -2184902365590201152
+    second: gakusei_16
+  - first:
+      213: -3580902488366233049
+    second: gakusei_17
+  - first:
+      213: -4857419669450377030
+    second: gakusei_18
+  - first:
+      213: 52630192965107452
+    second: gakusei_19
+  - first:
+      213: 2107631953740783794
+    second: gakusei_20
+  - first:
+      213: -5405955156455373748
+    second: gakusei_21
+  - first:
+      213: 2091056203906099423
+    second: gakusei_22
+  - first:
+      213: -2423661969664605012
+    second: gakusei_23
+  - first:
+      213: 7828738862096050822
+    second: gakusei_24
+  - first:
+      213: -2318166896236158931
+    second: gakusei_25
+  - first:
+      213: 7511191165844411804
+    second: gakusei_26
+  - first:
+      213: 6473076075714308631
+    second: gakusei_27
+  - first:
+      213: -6781060234031074676
+    second: gakusei_28
+  - first:
+      213: 4709933491983205895
+    second: gakusei_29
+  - first:
+      213: -3143838742264357065
+    second: gakusei_30
+  - first:
+      213: -38755320633725742
+    second: gakusei_31
+  - first:
+      213: -5579272174029037427
+    second: gakusei_32
+  - first:
+      213: 334437682671752294
+    second: gakusei_33
+  - first:
+      213: 3184152069239013586
+    second: gakusei_34
+  - first:
+      213: 7850148299311035541
+    second: gakusei_35
+  - first:
+      213: -2195053173261126354
+    second: gakusei_36
+  - first:
+      213: -114962275603971130
+    second: gakusei_37
+  - first:
+      213: 3758830909436710339
+    second: gakusei_38
+  - first:
+      213: 3975524008616741747
+    second: gakusei_39
+  - first:
+      213: -9102479723630977503
+    second: gakusei_40
+  - first:
+      213: -2722826282624093134
+    second: gakusei_41
+  - first:
+      213: -8622043936562956623
+    second: gakusei_42
+  - first:
+      213: 6934818523783131732
+    second: gakusei_43
+  - first:
+      213: 5452319536147362915
+    second: gakusei_44
+  - first:
+      213: -6461483700220046399
+    second: gakusei_45
+  - first:
+      213: -8363061943239759212
+    second: gakusei_46
+  - first:
+      213: 3870846355139799312
+    second: gakusei_47
+  - first:
+      213: 7102510263029585730
+    second: gakusei_48
+  - first:
+      213: 2542880362316344184
+    second: gakusei_49
+  - first:
+      213: -4094734553125683906
+    second: gakusei_50
+  - first:
+      213: -4881625699850979932
+    second: gakusei_51
+  - first:
+      213: -3699480002354654155
+    second: gakusei_52
+  - first:
+      213: -5671509022796964732
+    second: gakusei_53
+  - first:
+      213: 4052995617367698636
+    second: gakusei_54
+  - first:
+      213: -3998085126354510337
+    second: gakusei_55
+  - first:
+      213: -4706697394455691766
+    second: gakusei_56
+  - first:
+      213: -8545241654173106836
+    second: gakusei_57
+  - first:
+      213: 2614905550001667664
+    second: gakusei_58
+  - first:
+      213: -4331975050583476899
+    second: gakusei_59
+  - first:
+      213: -8462021462922514046
+    second: gakusei_60
+  - first:
+      213: 4399971897053014785
+    second: gakusei_61
+  - first:
+      213: -5329782822907017587
+    second: gakusei_62
+  - first:
+      213: -5722710945133635324
+    second: gakusei_63
+  - first:
+      213: 6057125056324096438
+    second: gakusei_64
+  - first:
+      213: 4101364636088602558
+    second: gakusei_65
+  - first:
+      213: -1272108490745711628
+    second: gakusei_66
+  - first:
+      213: 692747114702603371
+    second: gakusei_67
+  - first:
+      213: -4554533057071263527
+    second: gakusei_68
+  - first:
+      213: 4744155666841219132
+    second: gakusei_69
+  - first:
+      213: -912362817623504171
+    second: gakusei_70
+  - first:
+      213: -3001041388901986779
+    second: gakusei_71
+  - first:
+      213: 1166963028499184635
+    second: gakusei_72
+  - first:
+      213: 7801312118616546851
+    second: gakusei_73
+  - first:
+      213: 1851971840902696196
+    second: gakusei_74
+  - first:
+      213: 6738553089249411358
+    second: gakusei_75
+  - first:
+      213: -4053955521956941196
+    second: gakusei_76
+  - first:
+      213: -8119817518034946978
+    second: gakusei_77
+  - first:
+      213: -3088737984480981646
+    second: gakusei_78
+  - first:
+      213: -3663279444278180636
+    second: gakusei_79
+  - first:
+      213: -3885917891637817722
+    second: gakusei_80
+  - first:
+      213: 3250318355238623606
+    second: gakusei_81
+  - first:
+      213: -3781377667671322027
+    second: gakusei_82
+  - first:
+      213: 3151400149320576044
+    second: gakusei_83
+  - first:
+      213: 5999383008560917918
+    second: gakusei_84
+  - first:
+      213: 399829404877338187
+    second: gakusei_85
+  - first:
+      213: 4618958540868009929
+    second: gakusei_86
+  - first:
+      213: 5840233190466111487
+    second: gakusei_87
+  - first:
+      213: -5364409040785052361
+    second: gakusei_88
+  - first:
+      213: -1507402708996953488
+    second: gakusei_89
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gakusei_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222f639fe9f5f08b0800000000000000
+      internalID: -5183819509689552350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 224.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b66bd67b62bfda20800000000000000
+      internalID: 3089384044024784568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 224.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbfec15bd6d729e0800000000000000
+      internalID: -1646110901321925698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 224.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e646cfe42ca65b50800000000000000
+      internalID: 6581637180090107621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 224.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feadb53781395e060800000000000000
+      internalID: 6982148530531719919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_5
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 224.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1e4b9e91a126b30800000000000000
+      internalID: 4279011294552842681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48350d22d10bfee00800000000000000
+      internalID: 1076272475149456260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_7
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 150.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3163b4e22bebfad40800000000000000
+      internalID: 5597902534334952979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_8
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 150.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1181850f1808f660800000000000000
+      internalID: 7419689315422273822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 150.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb783fb21c45d7b0800000000000000
+      internalID: -5200166551328097340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 150.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d059e2b967384110800000000000000
+      internalID: 1245306224080670928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_11
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 150.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c494e7bd575c4cb90800000000000000
+      internalID: -7222430792411100852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15230ef88a67e3840800000000000000
+      internalID: 5205728685627290193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_13
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 76.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d58e0bc9a4a20d00800000000000000
+      internalID: 937492721609639379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_14
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 76.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4355e25c9c129e0800000000000000
+      internalID: -1647814139917814560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_15
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 76.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1b52f23a3587800800000000000000
+      internalID: 610329709844476349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_16
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 76.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccd516efdaada1e0800000000000000
+      internalID: -2184902365590201152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_17
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 76.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a4e95c8241e4ec0800000000000000
+      internalID: -3580902488366233049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab83a6ddb8af69cb0800000000000000
+      internalID: -4857419669450377030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_19
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 2.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe3524b1eafab000800000000000000
+      internalID: 52630192965107452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_20
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 2.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b06bff5810df3d10800000000000000
+      internalID: 2107631953740783794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_21
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 2.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4449cb5d603af4b0800000000000000
+      internalID: -5405955156455373748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_22
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8233fd98ce40d10800000000000000
+      internalID: 2091056203906099423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gakusei_23
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 2.25
+        width: 53.333332
+        height: 74.75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4848a974c6d5ed0800000000000000
+      internalID: -2423661969664605012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
