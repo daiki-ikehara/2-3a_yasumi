@@ -3276,25 +3276,30 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8520228974646380547, guid: 660e5b2f33d114145a6f30d0bcb75502,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8520228974646380549, guid: 660e5b2f33d114145a6f30d0bcb75502,
         type: 3}
       propertyPath: inputSpeed
-      value: 5
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 8520228974646380549, guid: 660e5b2f33d114145a6f30d0bcb75502,
         type: 3}
       propertyPath: jumpheight
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8520228974646380549, guid: 660e5b2f33d114145a6f30d0bcb75502,
         type: 3}
       propertyPath: JumpPower
-      value: 50
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8520228974646380549, guid: 660e5b2f33d114145a6f30d0bcb75502,
         type: 3}
       propertyPath: gravity
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8520228974646380568, guid: 660e5b2f33d114145a6f30d0bcb75502,
         type: 3}
