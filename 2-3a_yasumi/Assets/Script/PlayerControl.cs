@@ -12,7 +12,7 @@ public class PlayerControl : MonoBehaviour
     private bool jumpflg = false;
     private float height;
     private float jumpPos = 0.0f;
-    private bool setti;
+    private bool setti = true;
     public float inputSpeed;
     public float JumpPower;
     public float gravity;
@@ -22,7 +22,13 @@ public class PlayerControl : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
-        setti = GameObject.FindGameObjectWithTag("floar");
+    }
+
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+            Debug.Log("atari");
+            setti = true;
     }
 
     void Update()
@@ -30,16 +36,21 @@ public class PlayerControl : MonoBehaviour
         //height = 0;
         x_val = Input.GetAxis("Horizontal");
 
+
+
         //ジャンプ押したときの処理
 
-        if (Input.GetButtonDown("Jump"))//ジャンプ押すと
+        if (setti == true)
         {
-            rb2d.AddForce(transform.up*JumpPower,ForceMode2D.Impulse);
+            if (Input.GetButtonDown("Jump"))//ジャンプ押すと
+            {
+                rb2d.AddForce(transform.up * JumpPower, ForceMode2D.Impulse);
 
-            //jumpPos = transform.position.y;//ジャンプする前の座標を渡す
-            //height += JumpPower;//座標にジャンプの値を渡してジャンプ
-            jumpflg = true;//ジャンプフラグをture
-
+                //jumpPos = transform.position.y;//ジャンプする前の座標を渡す
+                //height += JumpPower;//座標にジャンプの値を渡してジャンプ
+                jumpflg = true;//ジャンプフラグをture
+                setti = false;
+            }
         }
         else//ジャンプボタンが押されていないとき
         {
@@ -71,7 +82,6 @@ public class PlayerControl : MonoBehaviour
         {
            speed = inputSpeed;
             anim.SetBool("right_run", true);
-            //rb2d.AddForce(transform.right * inputSpeed, ForceMode2D.Force);
             transform.position = new Vector2(transform.position.x + inputSpeed,transform.position.y);
         }
         //左に移動
@@ -80,9 +90,7 @@ public class PlayerControl : MonoBehaviour
             speed = inputSpeed * -1;
             anim.SetBool("left_run", true);
             transform.position = new Vector2(transform.position.x - inputSpeed, transform.position.y);
-            //rb2d.AddForce(transform.right * -inputSpeed, ForceMode2D.Force);
         }
-        // キャラクターを移動 Vextor2(x軸スピード、y軸スピード)
-        //rb2d.velocity = new Vector2(speed, 0);
+       
     }
 }
