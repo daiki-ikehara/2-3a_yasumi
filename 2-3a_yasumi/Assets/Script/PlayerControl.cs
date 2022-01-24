@@ -17,6 +17,7 @@ public class PlayerControl : MonoBehaviour
     public float JumpPower;
     public float gravity;
     public float jumpheight;
+    private int hp = 10;
 
     void Start()
     {
@@ -92,5 +93,14 @@ public class PlayerControl : MonoBehaviour
             transform.position = new Vector2(transform.position.x - inputSpeed, transform.position.y);
         }
        
+    }
+    public void SetHp(int hp)
+    {
+        this.hp = hp;
+    }
+
+    public int GetHp()
+    {
+        return this.hp;
     }
 }
