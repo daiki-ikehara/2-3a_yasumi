@@ -57,10 +57,10 @@ public class PlayerControl : MonoBehaviour
             if (Input.GetButtonDown("Jump"))//ジャンプ押すと
             {
                 rb2d.AddForce(transform.up * JumpPower, ForceMode2D.Impulse);
-
-                //jumpPos = transform.position.y;//ジャンプする前の座標を渡す
-                //height += JumpPower;//座標にジャンプの値を渡してジャンプ
-                jumpflg = true;//ジャンプフラグをture
+                audioSource.PlayOneShot(JumpSound);
+                    //jumpPos = transform.position.y;//ジャンプする前の座標を渡す
+                    //height += JumpPower;//座標にジャンプの値を渡してジャンプ
+                    jumpflg = true;//ジャンプフラグをture
                 setti = false;
             }
         }
