@@ -6,6 +6,11 @@ public class PlayerControl : MonoBehaviour
 {
     private Animator anim = null;
 
+    public AudioClip JumpSound;
+    AudioSource audioSource;
+
+
+    private bool countflg;
     private Rigidbody2D rb2d;//Rigidbody2dの変数
     private float x_val;//X座標
     private float speed;//x座標のキャラのスピード
@@ -23,19 +28,25 @@ public class PlayerControl : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
     }
 
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-            Debug.Log("atari");
-            setti = true;
+        Debug.Log("atari");
+        setti = true;
     }
 
     void Update()
     {
-        //height = 0;
-        x_val = Input.GetAxis("Horizontal");
+
+        countflg = CoundDown.countflg;
+
+        if (countflg == false)
+        {
+            //height = 0;
+            x_val = Input.GetAxis("Horizontal");
 
 
 
@@ -76,14 +87,14 @@ public class PlayerControl : MonoBehaviour
             speed = 0;
             anim.SetBool("right_run", false);
             anim.SetBool("left_run", false);
-            
+
         }
         //右に移動
         else if (x_val > 0)
         {
-           speed = inputSpeed;
+            speed = inputSpeed;
             anim.SetBool("right_run", true);
-            transform.position = new Vector2(transform.position.x + inputSpeed,transform.position.y);
+            transform.position = new Vector2(transform.position.x + inputSpeed, transform.position.y);
         }
         //左に移動
         else if (x_val < 0)
@@ -92,7 +103,8 @@ public class PlayerControl : MonoBehaviour
             anim.SetBool("left_run", true);
             transform.position = new Vector2(transform.position.x - inputSpeed, transform.position.y);
         }
-       
+    }
+
     }
     public void SetHp(int hp)
     {
