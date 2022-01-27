@@ -36,7 +36,7 @@ public class HPScript : MonoBehaviour
         //毎秒処理を行う
         if (countflg == false&&currentTime >= 1.0f)
         {
-            HPbar.value -= 10;
+            HPbar.value -= 2;
             currentTime = 0;
         }
         if (HPbar.value <= 0)

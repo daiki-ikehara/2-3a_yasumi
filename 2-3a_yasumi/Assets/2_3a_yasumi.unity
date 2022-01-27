@@ -266,7 +266,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7728695473995975629, guid: 406a3db3c92a67a48b58056ced0bf9d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 406a3db3c92a67a48b58056ced0bf9d9, type: 3}
 --- !u!1 &98631947
 GameObject:
@@ -1303,7 +1304,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 2.03207, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1355,7 +1356,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &640072522
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2343,7 +2344,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1165183405
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4986,6 +4987,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1622612393 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7728695473995975618, guid: 406a3db3c92a67a48b58056ced0bf9d9,
+    type: 3}
+  m_PrefabInstance: {fileID: 45853813}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1622612394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622612393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ebfc5c543fe023479d8a905ae4f0c8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 2
 --- !u!1 &1737780077
 GameObject:
   m_ObjectHideFlags: 0
@@ -5182,9 +5202,9 @@ RectTransform:
   m_Father: {fileID: 1476214762}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: -180}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -186, y: 34}
   m_SizeDelta: {x: 180, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1804541836
