@@ -12,7 +12,7 @@ public class HPScript : MonoBehaviour
 
     //現在の時間
     private float currentTime = 0f;
-
+    private bool countflg;
     [SerializeField] GameObject overPanel;
     // Start is called before the first frame update
     void Start()
@@ -31,9 +31,10 @@ public class HPScript : MonoBehaviour
     {
         //前のフレームから経過した秒数を加算
         currentTime += Time.deltaTime;
+        countflg = CoundDown.countflg;
 
         //毎秒処理を行う
-        if (currentTime >= 1.0f)
+        if (countflg == false&&currentTime >= 1.0f)
         {
             HPbar.value -= 10;
             currentTime = 0;
@@ -41,8 +42,9 @@ public class HPScript : MonoBehaviour
         if (HPbar.value <= 0)
         {
             overPanel.SetActive(true);
-            Debug.Log("ゲームオーバー");
+            //Debug.Log("ゲームオーバー");
             Time.timeScale = 0f;
+            
         }
     }
     public void SetHp(int HP)
