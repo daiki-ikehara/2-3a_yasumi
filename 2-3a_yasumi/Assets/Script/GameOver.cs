@@ -12,6 +12,7 @@ public class GameOver : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))//エネミーに当たった時に
         {
+            Time.timeScale = 0f;
             overPanel.SetActive(true);
             Debug.Log("当たった");
             

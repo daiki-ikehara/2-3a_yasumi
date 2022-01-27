@@ -8,9 +8,10 @@ public class GameManager : MonoBehaviour
    
     public void Retry()
     {
+        
         Scene loadScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        
-        
+        Time.timeScale = 1f;
+
     }
 }
