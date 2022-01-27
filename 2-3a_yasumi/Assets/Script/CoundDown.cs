@@ -11,7 +11,7 @@ public class CoundDown : MonoBehaviour
 
     public Text CountText;
 
-    float countdown = 3f;
+    float countdown = 4f;
     int count;
     public static bool countflg = true;
 
