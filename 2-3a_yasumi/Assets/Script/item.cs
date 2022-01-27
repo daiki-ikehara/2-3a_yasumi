@@ -16,6 +16,7 @@ public class item : MonoBehaviour
             playerScript.SetHp(playerScript.GetHp() + recoveryPoint);
             isRecovered = true;
             Debug.Log(recoveryPoint + "回復した");
+            gameObject.SetActive(false);
         }
     }
 }
