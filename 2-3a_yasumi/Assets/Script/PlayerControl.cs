@@ -22,7 +22,7 @@ public class PlayerControl : MonoBehaviour
     public float JumpPower;
     public float gravity;
     public float jumpheight;
-    private int hp = 10;
+    //private int hp = 10;
 
     void Start()
     {
@@ -106,13 +106,13 @@ public class PlayerControl : MonoBehaviour
     }
 
     }
-    public void SetHp(int hp)
-    {
-        this.hp = hp;
-    }
+    //public void SetHp(int hp)
+    //{
+    //    this.hp = hp;
+    //}
 
-    public int GetHp()
-    {
-        return this.hp;
-    }
+    //public int GetHp()
+    //{
+    //    return this.hp;
+    //}
 }
