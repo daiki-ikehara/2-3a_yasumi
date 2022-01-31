@@ -14,6 +14,8 @@ public class HPScript : MonoBehaviour
     private float currentTime = 0f;
     private bool countflg;
     [SerializeField] GameObject overPanel;
+    //public Button FirstSelectButton;
+    public static bool gameoverflg = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,10 +43,13 @@ public class HPScript : MonoBehaviour
         }
         if (HPbar.value <= 0)
         {
+            gameoverflg = true;
+            Time.timeScale = 0f;
             overPanel.SetActive(true);
             //Debug.Log("ゲームオーバー");
-            Time.timeScale = 0f;
-            
+
+            //FirstSelectButton.Select();
+
         }
     }
     public void SetHp(int HP)

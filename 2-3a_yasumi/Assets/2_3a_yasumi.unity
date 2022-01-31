@@ -1556,7 +1556,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7083334, y: 1}
+    m_SensorSize: {x: 1.6674641, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -5637,7 +5637,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ebfc5c543fe023479d8a905ae4f0c8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 2
+  Speed: 5
 --- !u!1 &1737780077
 GameObject:
   m_ObjectHideFlags: 0
@@ -7015,7 +7015,7 @@ PrefabInstance:
     - target: {fileID: 8520228974646380549, guid: 660e5b2f33d114145a6f30d0bcb75502,
         type: 3}
       propertyPath: inputSpeed
-      value: 0.05
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 8520228974646380549, guid: 660e5b2f33d114145a6f30d0bcb75502,
         type: 3}
@@ -7152,7 +7152,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 100
-  overPanel: {fileID: 1231964316}
+  overPanel: {fileID: 904608563}
+  FirstSelectButton: {fileID: 201882541}
 --- !u!114 &8520228974519486543
 MonoBehaviour:
   m_ObjectHideFlags: 0
